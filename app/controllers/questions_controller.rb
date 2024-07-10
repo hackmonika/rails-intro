@@ -5,7 +5,13 @@ class QuestionsController < ApplicationController
   def answer
     @question = params[:question]
     if @question == 'I am going to work'
-      answer == 'Great!'
+      @answer == 'Great!'
+
+    else
+
+    elsif
+
+    end
     end
   end
 end
